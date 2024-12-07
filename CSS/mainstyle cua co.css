@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap');
+body
+{
+	/*background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100%;	
+	background-attachment: fixed;*/
+	color: rgba(0,0,0,0.8);
+	font-size: 16px;
+	font-family:"Nunito", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+
+h1,h2
+{
+	 font-family: "Yrsa", serif;
+}
+.font-dacbiet
+{
+	font-family: "Mea Culpa", cursive;
+  	font-weight: 800;
+  	font-style: normal;
+	color: rgba(197,0,141,1.00);
+}
+/* cho nay bat dau dinh dang mau chu cho web*/
+.text-primary
+{
+	color:#C10DC0
+}
+
+.text-secondary
+{
+	color: #7C0862
+}
+.text-light
+{
+	color: #FFFFFF
+}
+.text-dark
+{
+	color: rgba(0,0,0,0.8)
+}
+/*--- dinh dang mau nen background cho web-----*/
+.bg-primary
+{
+	background-color: #C10DC0
+}
+.bg-primary-10
+{
+	background-color: rgba(154,14,179,0.08)
+}
+/*--------------dinh dang vung section-----------------------------*/
+
+*{ box-sizing: border-box} /* giữ đường vien vao trong*/
+.container
+{/* box container sẽ chiếm 90% độ rộng màn hình và nằm giữa*/
+	width: 90%; margin: auto 
+}
+@media (min-width:600px)
+{
+		.container
+	{
+		width: 80%; margin: auto 
+	}
+}
+.col-1 { width: 8.33%; }
+.col-2{width: 16.66%}
+.col-3{ width: 25%}
+.col-4{ width: 33.33%}
+.col-5{ width: 41.66%}
+.col-6{ width: 50%}
+.col-7{ width: 58.33%}
+.col-8{ width: 66.66%}
+.col-9{ width: 75%}
+.col-10{ width: 83.33%}
+.col-11{ width: 91.66%}
+.col-12{ width: 100%}
+/* phải cho các cột vào dòng row, thì mới dược sắp nằm cạnh nhau cho đủ 100%*/
+.row{ display: flex; flex-wrap: wrap}
+/*tất cả các cột đều có đường viền đỏ và đẩy bờ lề vào trong là 15px*/
+[class*="col-"] {
+  padding: 15px;
+  border: 1px solid red;
+}
+.img-100{ width: 100%; height: auto}
+.text-center{ text-align: center}
+@media (min-width:600px)
+{
+	.col-md-1 { width: 8.33%; }
+	.col-md-2{width: 16.66%}
+	.col-md-3{ width: 25%}
+	.col-md-4{ width: 33.33%}
+	.col-md-5{ width: 41.66%}
+	.col-md-6{ width: 50%}
+	.col-md-7{ width: 58.33%}
+	.col-md-8{ width: 66.66%}
+	.col-md-9{ width: 75%}
+	.col-md-10{ width: 83.33%}
+	.col-md-11{ width: 91.66%}
+	.col-md-12{ width: 100%}
+}
+@media (min-width:960px)
+{
+	.col-lg-1 { width: 8.33%; }
+	.col-lg-2{width: 16.66%}
+	.col-lg-3{ width: 25%}
+	.col-lg-4{ width: 33.33%}
+	.col-lg-5{ width: 41.66%}
+	.col-lg-6{ width: 50%}
+	.col-lg-7{ width: 58.33%}
+	.col-lg-8{ width: 66.66%}
+	.col-lg-9{ width: 75%}
+	.col-lg-10{ width: 83.33%}
+	.col-lg-11{ width: 91.66%}
+	.col-lg-12{ width: 100%}
+}
+
